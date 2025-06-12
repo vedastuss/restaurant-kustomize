@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: ./../../..  # <-- This points to root where your app's kustomization.yaml is
+  path: ./../restaurant-app  # <-- This points to root where your app's kustomization.yaml is
   prune: true
   sourceRef:
     kind: GitRepository
