@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: ../restaurant-app
+  path: ./clusters/my-cluster/restaurant-app
   prune: true
   sourceRef:
     kind: GitRepository
