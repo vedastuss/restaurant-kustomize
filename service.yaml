@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: restaurant-landing
+  name: restaurant-service
 spec:
   selector:
     app: restaurant-landing
