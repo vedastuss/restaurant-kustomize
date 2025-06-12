@@ -9,6 +9,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 31795  # Add this line
-  type: NodePort         # Change this line
+  type: LoadBalancer
 

@@ -12,4 +12,3 @@ spec:
     name: flux-system
   targetNamespace: default
   timeout: 1m
-
