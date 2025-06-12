@@ -15,6 +15,7 @@ spec:
       containers:
         - name: web
           image: tyvenchr/restaurant-landing-page:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
 
