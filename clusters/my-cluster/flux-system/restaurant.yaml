@@ -1,0 +1,13 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: restaurant
+  namespace: flux-system
+spec:
+  interval: 1m
+  path: ./../../..  # <-- This points to root where your app's kustomization.yaml is
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: flux-system
+
