@@ -8,7 +8,9 @@ spec:
     name: restaurant
 #  policy:
 #    latest: {}
+#  policy:
+#    tag:
+#      pattern: latest
   policy:
-    tag:
-      pattern: latest
-
+    semver:
+      range: 1.0.x
