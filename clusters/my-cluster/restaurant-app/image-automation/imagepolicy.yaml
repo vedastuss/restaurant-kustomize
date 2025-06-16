@@ -6,5 +6,9 @@ metadata:
 spec:
   imageRepositoryRef:
     name: restaurant
+#  policy:
+#    latest: {}
   policy:
-    latest: {}
+    tag:
+      pattern: latest
+
