@@ -13,6 +13,9 @@ spec:
       ref:
         branch: main
     commit:
+      author:
+        name: FluxCD
+        email: fluxcd@example.com
       messageTemplate: "Update image to {{range .Updated.Images}}{{.}}{{end}}"
     push:
       branch: main
