@@ -7,6 +7,4 @@ spec:
   imageRepositoryRef:
     name: restaurant
   policy:
-    tag:
-      pattern: latest
-
+    latest: {}
