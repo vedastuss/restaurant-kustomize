@@ -1,0 +1,9 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: restaurant
+  namespace: flux-system
+spec:
+  image: tyvenchr/restaurant-landing-page
+  interval: 1m
+
