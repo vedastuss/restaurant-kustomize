@@ -14,10 +14,10 @@ spec:
         branch: main
     commit:
       author:
-        name: FluxCD
-        email: fluxcd@example.com
-      messageTemplate: "Update image to {{range .Updated.Images}}{{.}}{{end}}"
+        email: your@email.com
+        name: Flux Bot
     push:
       branch: main
   update:
-    strategy: Update
+    strategy: Setters
+
