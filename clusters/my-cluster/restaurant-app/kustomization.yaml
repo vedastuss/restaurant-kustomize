@@ -5,6 +5,5 @@ resources:
   - deployment.yaml
   - service.yaml
   - image-automation/
-
 images:
-  - name: tyvenchr/restaurant-landing-page # {"$imagepolicy": "flux-system:restaurant-latest"}
+  - name: tyvenchr/restaurant-landing-page:1.0.3 # {"$imagepolicy": "flux-system:restaurant-latest"}
