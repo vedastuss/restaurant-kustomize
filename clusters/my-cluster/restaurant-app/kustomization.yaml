@@ -7,4 +7,4 @@ resources:
   - image-automation/
 
 images:
-  - name: tyvenchr/restaurant-landing-page
+  - name: tyvenchr/restaurant-landing-page # {"$imagepolicy": "flux-system:restaurant-latest"}
