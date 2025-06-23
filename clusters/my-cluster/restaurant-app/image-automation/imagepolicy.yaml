@@ -6,14 +6,6 @@ metadata:
 spec:
   imageRepositoryRef:
     name: restaurant
-#  policy:
-#    latest: {}
-#  policy:
-#    tag:
-#      pattern: latest
   policy:
     semver:
       range: 1.0.x
-#  policy:
-#    alphabetical:
-#      order: desc
