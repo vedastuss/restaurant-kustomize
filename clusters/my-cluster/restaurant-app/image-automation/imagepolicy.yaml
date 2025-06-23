@@ -11,9 +11,9 @@ spec:
 #  policy:
 #    tag:
 #      pattern: latest
-#  policy:
-#    semver:
-#      range: 1.0.x
   policy:
-    alphabetical:
-      order: desc
+    semver:
+      range: 1.0.x
+#  policy:
+#    alphabetical:
+#      order: desc
