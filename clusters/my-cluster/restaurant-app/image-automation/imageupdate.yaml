@@ -21,4 +21,4 @@ spec:
     push:
       branch: main
   update:
-    strategy: Update
+    strategy: Setters
