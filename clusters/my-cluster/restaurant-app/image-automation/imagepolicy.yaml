@@ -16,4 +16,4 @@ spec:
 #      range: 1.0.x
   policy:
     alphabetical:
-      order: asc
+      order: desc
