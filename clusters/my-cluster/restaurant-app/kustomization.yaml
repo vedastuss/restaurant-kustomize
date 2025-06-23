@@ -8,4 +8,3 @@ resources:
 
 images:
   - name: tyvenchr/restaurant-landing-page
-    newTag: "a57114e"  # Flux will update this tag
