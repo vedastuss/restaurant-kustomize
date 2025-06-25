@@ -20,5 +20,3 @@ spec:
       messageTemplate: "Update image to {{range .Updated.Images}}{{.}}{{end}}"
     push:
       branch: main
-  update:
-    strategy: Setters
