@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: tyvenchr/restaurant-landing-page:1.0.7 # {"$imagepolicy": "flux-system:restaurant-latest"}
+          image: tyvenchr/restaurant-landing-page:1.0.8 # {"$imagepolicy": "flux-system:restaurant-latest"}
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
