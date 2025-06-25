@@ -5,7 +5,3 @@ resources:
   - deployment.yaml
   - service.yaml
   - image-automation/
-images:
-  - name: tyvenchr/restaurant-landing-page
-    newTag: 1.0.6 # optional, Flux will update this
-    # {"$imagepolicy": "flux-system:restaurant-latest"}
