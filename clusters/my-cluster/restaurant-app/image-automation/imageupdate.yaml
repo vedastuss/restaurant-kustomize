@@ -20,3 +20,5 @@ spec:
       messageTemplate: "Update image to {{range .Updated.Images}}{{.}}{{end}}"
     push:
       branch: main
+    secretRef:
+      name: flux-system   # 👈 this tells Flux to use HTTPS credentials
