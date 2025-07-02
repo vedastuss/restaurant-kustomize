@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-automation-controller
+  namespace: flux-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: image-automation-controller
+  template:
+    metadata:
+      labels:
+        app: image-automation-controller
+    spec:
+      containers:
+        - name: manager
+          image: ghcr.io/fluxcd/image-automation-controller:v0.37.0
+          args:
+            - --enable-leader-election
+
