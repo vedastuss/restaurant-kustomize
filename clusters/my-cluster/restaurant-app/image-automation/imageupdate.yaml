@@ -1,4 +1,4 @@
-apiVersion: image.toolkit.fluxcd.io/v1beta1
+apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageUpdateAutomation
 metadata:
   name: restaurant-update
@@ -20,5 +20,6 @@ spec:
       messageTemplate: "Update image to {{range .Updated.Images}}{{.}}{{end}}"
     push:
       branch: main
-    secretRef:
-      name: flux-system   # 👈 this tells Flux to use HTTPS credentials
+  update:
+    strategy: Git
+
